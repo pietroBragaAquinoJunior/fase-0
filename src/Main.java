@@ -28,11 +28,14 @@ public class Main {
                 return;
             }
 
+            RecordExample exemploDeRecord = new RecordExample("Piêtro", 27);
+
             String response = """
                 {
-                  "message": "Hello, world!"
+                  "nome": "%s",
+                  "idade": %d
                 }
-                """;
+                """.formatted(exemploDeRecord.nome(), exemploDeRecord.idade());
 
             exchange.getResponseHeaders().add("Content-Type", "application/json");
             exchange.sendResponseHeaders(200, response.getBytes().length);

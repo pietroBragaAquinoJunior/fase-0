@@ -15,11 +15,9 @@ Para consolidar esses fundamentos, a Fase 0 propõe um mini-projeto simples: a c
 Você pode considerar a Fase 0 concluída quando conseguir explicar com suas próprias palavras o que é uma API REST, quando não sentir insegurança ao lidar com requisições HTTP, quando conseguir ler e escrever Java moderno sem estranheza e quando o uso do Git deixar de ser algo mecânico e passar a ser natural. Com essa base sólida, o estudo da Fase 1 — Spring Boot essencial — deixa de ser um salto no escuro e passa a ser uma progressão lógica e consciente.
 
 
-
-
 Comandos:
 
-javac src/Main.java
+javac src/*.java
 java -cp src Main
 
 Testando Api:
